@@ -1,4 +1,5 @@
 <?php
+
 	define('PHOTO_DIR', '/var/www/html/fotoinbeeld/pieter');
 
 	// Content type
@@ -28,11 +29,11 @@
 		{
 			// Portrait
 			$new_height = (int)$mheight;
-			$new_width =(int)($mheight / $height) * $width;
+			$new_width =(int)(($mheight / $height) * $width);
 		}
 		else
 		{
-			$new_height = (int)($mwidth / $width) * $height;
+			$new_height = (int)(($mwidth / $width) * $height);
 			$new_width = (int)$mwidth;
 		}
 	}
