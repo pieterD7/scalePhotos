@@ -44,6 +44,7 @@
 	}
 	else
 	{
+		// 90% for portrait photos for better view in grid
 		$new_width = (int)(0.9*$max / $height * $width);
 		$new_height = (int)(0.9*$max);
 	}
